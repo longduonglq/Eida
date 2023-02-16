@@ -17,6 +17,6 @@ int main() {
 
     m32::SimpleNote<int, std::vector> v;
     boost::container::small_vector<int, 5> g {};
-    m32::SimpleNote<int, small_vec_n<5>::vec> h{};
+    m32::SimpleNote<int, small_vec_n<5>::vec> h{1, 3};
     return 0;
 }
